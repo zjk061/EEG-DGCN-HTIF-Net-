@@ -355,7 +355,7 @@ class LightGCN(GeneralModel, LightGCNBase):
 		return {'prediction': out_dict['prediction']}
 
 # EEG-DGCN
-class CTRLightGCNCTR(ContextCTRModel, LightGCNBase):
+class EEG-DGCN(ContextCTRModel, LightGCNBase):
 	reader = 'ContextReader'
 	runner = 'CTRRunner'
 	extra_log_args = ['emb_size', 'n_layers', 'batch_size']
